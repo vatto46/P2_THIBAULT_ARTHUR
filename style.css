@@ -70,13 +70,16 @@ color: grey;
 {
 display: flex;
 flex-direction: row;
+border: solid 1px #F2F2F2;
+margin-right: 714px;
+border-radius: 15px 10px 10px 15px;
 }
 .logo_loc
 {
 width: 25px;
 height: 25px;
 background-color: #F2F2F2;
-border-radius: 70% 70% 70% 70%;
+border-radius: 70% 0% 0% 70%;
 }
 .rch
 {
