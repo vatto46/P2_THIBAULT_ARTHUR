@@ -44,7 +44,7 @@ height: 50px;
 .btn1
 {
 margin-top: 20px;
-margin-left: 600px;
+margin-left: 650px;
 height: 35px;
 background-color: white;
 border: none;
@@ -261,6 +261,7 @@ width: 992px;
 font-size: 18.72px;
 margin-top: 50px;
 margin-bottom: 20px;
+margin-left: 15px;
 }
 .n5
 {
