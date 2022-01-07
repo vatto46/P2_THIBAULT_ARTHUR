@@ -36,6 +36,10 @@ li
 {
 list-style-type: none;
 }
+a
+{
+text-decoration: none;
+}
 .logo
 {
 width: 100px;
@@ -102,10 +106,11 @@ padding-right: 15px;
 .flt
 {
 font-size: 20px;
-margin-top: 13px;
+margin-top: 6px;
 }
 .bouton_filtre
 {
+height: 30px;
 display: flex;
 border: solid 2px #F2F2F2;
 border-radius: 50px 50px 50px 50px;
@@ -113,10 +118,15 @@ margin-right: 10px;
 margin-left: 10px;
 padding-right: 20px;
 }
+.texte_filtre
+{
+margin-left: 5px;
+margin-top: 8px;
+}
 .logo_rond
 {
-width: 50px;
-height: 50px;
+width: 30px;
+height: 30px;
 background-color: #F2F2F2;
 border-radius: 70% 70% 70% 70%;
 }
@@ -147,6 +157,10 @@ margin-right: 15px;
 padding-left: 10px;
 padding-right: 10px;
 border-radius: 20px 20px 20px 20px;
+}
+#hebergement
+{
+margin-left: 13px;
 }
 .ligne1
 {
@@ -221,6 +235,10 @@ flex-direction: row;
 margin-bottom: 10px;
 justify-content: space-around;
 }
+.afficher
+{
+margin-left: 13px;
+}
 .aside2
 {
 display: flex;
@@ -232,7 +250,7 @@ border-radius: 20px 20px 20px 20px;
 }
 .popu
 {
-text-align: left;
+margin-left: 5px;
 }
 .block_aside2
 {
