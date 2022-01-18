@@ -8,12 +8,14 @@ body
 width: 992px;
 flex-direction: column;
 font-family: "Raleway";
+font-size: large;
 }
 img
 {
 display: flex;
 width: 200px;
 height: 120px;
+object-fit: cover;
 }
 header
 {
@@ -82,7 +84,7 @@ border-radius: 15px 10px 10px 15px;
 .logo_loc
 {
 width: 35px;
-height: 35px;
+height: 25px;
 background-color: #F2F2F2;
 border-radius: 13px 0px 0px 13px;
 padding: 5px;
@@ -129,8 +131,8 @@ border-radius: 50px 50px 50px 50px;
 margin-right: 10px;
 margin-left: 10px;
 padding-right: 20px;
-  height: 50px;
-  border-radius: 100px;
+height: 50px;
+border-radius: 100px;
 }
 .bouton_filtre:hover
 {
@@ -144,10 +146,10 @@ transition-timing-function:ease-in;
 margin-left: 5px;
 margin-top: 8px;
   display: inline-block;
-  margin: 0;
-  top: 15px;
-  position: relative;
-  padding-left: 7px;
+margin: 0;
+top: 15px;
+position: relative;
+padding-left: 7px;
 }
 .logo_rond
 {
@@ -156,7 +158,7 @@ height: 30px;
 background-color: #F2F2F2;
 border-radius: 70% 70% 70% 70%;
 padding: 10px;
-  display: inline-block;
+display: inline-block;
 }
 .logo_rond>img
 {
@@ -340,10 +342,6 @@ border-radius: 10px 10px 10px 10px;
 {
 width: 235px;
 margin-right: 15px;
-}
-.texte
-{
-
 }
 .img_big
 {

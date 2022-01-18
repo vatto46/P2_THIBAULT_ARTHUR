@@ -1,0 +1,41 @@
+@media (max-width: 992px) {
+    body{
+        width: 700px;
+    }
+    .btn1{
+        margin-left: 335px;
+    }
+    footer{
+        width: 700px;
+    }
+    .n2{
+        width: 700px;
+    }
+    .n3{
+        display: block;
+        width: 700px;
+    }
+    .img_popu{
+        width: 350px;
+    }
+    .aside2{
+        margin-top: 20px;
+        width: 665px;
+    }
+    .nom{
+        margin-left: 5px;
+    }
+    .prix{
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .etoile_populaire{
+        margin-left: 10px;
+    }
+    .etoile_populaire2{
+        margin-left: 10px;
+    }
+    .n5{
+        width: 700px;
+    }
+}
