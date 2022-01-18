@@ -45,6 +45,7 @@ list-style-type: none;
 a
 {
 text-decoration: none;
+font-family: "Raleway";
 }
 .logo
 {
@@ -84,7 +85,7 @@ color: grey;
 {
 display: flex;
 border: solid 1px #F2F2F2;
-border-radius: 15px 10px 10px 15px;
+border-radius: 15px 15px 15px 15px;
 margin-right: 640px;
 }
 .logo_loc
@@ -92,7 +93,7 @@ margin-right: 640px;
 width: 30px;
 height: 25px;
 background-color: #F2F2F2;
-border-radius: 13px 0px 0px 13px;
+border-radius: 15px 0px 0px 15px;
 padding: 5px;
 }
 .logo_loc>img
@@ -103,7 +104,7 @@ max-height: 25px;
 .rch
 {
 background-color: #0065FC;
-border-radius: 0px 10px 10px 0px;
+border-radius: 0px 15px 15px 0px;
 border: none;
 color: white;
 }
@@ -122,6 +123,7 @@ padding-top: 1px;
 margin-left: 20px;
 margin-right: 10px;
 padding-right: 15px;
+flex-wrap: wrap;
 }
 .flt
 {
