@@ -12,7 +12,7 @@
         width: 700px;
     }
     .n3{
-        display: block;
+        flex-direction: column;
         width: 700px;
     }
     .img_popu{
@@ -27,7 +27,6 @@
     }
     .prix{
         margin-left: 5px;
-        margin-top: 10px;
     }
     .etoile_populaire{
         margin-left: 10px;
@@ -36,6 +35,14 @@
         margin-left: 10px;
     }
     .n5{
-        width: 700px;
+        width: 700px;;
+    }
+    .img_big{
+        width: 235px;
+        height: 130px;
+    }
+    .block1{
+        height: 175px;
+        width: 300px;
     }
 }
