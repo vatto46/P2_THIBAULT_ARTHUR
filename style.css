@@ -17,6 +17,13 @@ width: 200px;
 height: 120px;
 object-fit: cover; 
 }
+.header
+{
+height: 2px;
+width: 117px;
+margin-left: 745px;
+background-color: #0065FC;
+}
 
                 /* HEADER */
 
@@ -55,11 +62,12 @@ margin-left: 50px;
 
 .trouvez
 {
-font-size: 20px;
+font-size: 17px;
 }
 .plein
 {
 color: grey;
+font-size: 15px;
 }
 .recherche
 {
@@ -91,6 +99,8 @@ color: white;
 input[type="search"]
 {
 width: 229px;
+font-size: 18px;
+font-family: "Raleway";
 }
 .filtres
 {
@@ -104,6 +114,7 @@ margin-left: 20px;
 margin-right: 10px;
 padding-right: 15px;
 flex-wrap: wrap;
+font-size: 15px;
 }
 .flt
 {
@@ -198,13 +209,13 @@ font-size: 17px;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
+padding-bottom: 10px;
 }
 .canne
 {
 background-color: white;
 margin-left: 5px;
 margin-right: 5px;
-padding-bottom: 10px;
 padding-right: 2px;
 padding-left: 2px;
 padding-top: 2px;
@@ -239,10 +250,12 @@ display: flex;
 width: 13px;
 height: 13px;
 margin-left: 1px;
+padding-bottom: 10px;
 }
 .etoile_populaire
 {
 display: flex;
+margin-left: 4px;
 margin-top: 35px;
 }
 .etoile_populaire2
@@ -253,7 +266,8 @@ margin-top: 35px;
 .afficher
 {
 margin-left: 13px;
-font-size: 17px;
+font-size: 15px;
+
 }
 
                 /* ASIDE */
@@ -275,6 +289,7 @@ margin-top: 10px;
 margin-bottom: 10px;
 padding-right: 6px;
 background-color: white;
+font-size: 15px;
 }
 .img_popu
 {
@@ -284,15 +299,22 @@ border-top-left-radius: 19px 19px;
 border-bottom-left-radius: 19px 19px;
 margin: 2px 0px 2px 2px;
 }
+.logo_populaire
+{
+float: right;
+margin-right: 10px;
+width: 20px;
+height: 20px;
+}
 
                 /* ARTICLE */
 
 .n4
 {
-font-size: 20px;
+font-size: 17px;
 margin-top: 35px;
 margin-bottom: 20px;
-padding-left: 15px;
+padding-left: 17px;
 }
 .n5
 {
@@ -303,12 +325,13 @@ width: 992px;
 {
 height: 155px;
 margin-bottom: 20px;
-padding-bottom: 20px;
+padding-bottom: 15px;
 margin-right: 10px;
 }
 .shadow
 {
 box-shadow: 0px 10px 10px 0px grey;
+padding-bottom: 15px;
 }
 .image
 {
@@ -318,13 +341,13 @@ border-top-right-radius: 19px 19px;
 }
 .image_grande
 {
-height: 325px;
+height: 315px;
 }
 .txt_img
 {
 margin-top: 10px;
 padding-left: 5px;
-font-size: 17px;
+font-size: 15px;
 }
 
                 /* FOOTER */
@@ -338,11 +361,12 @@ margin-top: 40px;
 width: 992px;
 text-align: left;
 }
-ul
-{
-padding-inline-start: 1px;
-}
 li
 {
 list-style-type: none;
+font-size: 13px;
+}
+ul
+{
+padding-inline-start: 1px;
 }
