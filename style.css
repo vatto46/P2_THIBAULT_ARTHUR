@@ -9,7 +9,6 @@ width: auto;
 flex-direction: column;
 font-family: "Raleway", sans-serif;
 font-size: large;
-margin: 0;
 }
 img
 {
@@ -359,7 +358,145 @@ ul
 padding-inline-start: 1px;
 font-size: 15px;
 }
+                /* MEDIA QUERIES TABLETTE*/
+@media screen and (max-width:1000px) {
+    body{
+        width: 700px;
+    }
+                /* HEADER */
+    .btn1{
+        margin-left: 335px;
+    }
+    .header{
+        margin-left: 427px;
+    }
+                /* NAV */
+    .n2{
+        width: 700px;
+    }
+    .filtre_romantique{
+        margin-left: 85px;
+        margin-top: 10px;
+    }
+    .filtre_economique{
+        margin-left: 27px;
+    }
+    .filtre_animaux{
+        margin-top: 10px;
+    }
+                /* SECTION HEBERGEMENT*/
+    .n3{
+        flex-direction: column;
+        width: 700px;
+    }
+    .nom{
+        margin-left: 5px;
+    }
+    .prix{
+        margin-left: 5px;
+    }
+                /* ASIDE */
+    .img_popu{
+        width: 350px;
+    }
+    .aside2{
+        margin-top: 20px;
+        width: 665px;
+    }
+    .aside_populaire{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .etoile_populaire{
+        margin-left: 10px;
+    }
+                /* SECTION ACTIVITES */
+    .n5{
+        width: 700px;;
+    }
+    .img_big{
+        width: 235px;
+        height: 130px;
+    }
+    .block1{
+        height: 175px;
+        width: 300px;
+    }
+                /* FOOTER */
+    footer{
+    width: 700px;
+    }
 
-{
-    outline: solid red 1px;
+                /* MEDIA QUERIES SMARTPHONE*/
+
+    @media (max-width: 695px) {
+body{
+    width: 500px;
+}
+                /* HEADER */
+.header{
+    display: none;
+}
+header{
+    flex-wrap: wrap;
+}
+.btn1{
+    margin-left: 10px;
+}
+.logo{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+a{
+    margin-left: 50px;
+}
+                /* NAV */
+.n2{
+    flex-direction: column;
+    width: auto;
+}
+.afficher{
+    margin-left: 4px;
+    font-size: 17px;
+}
+                /* SECTION */
+.n4{
+    margin-top: 20px;
+}
+.n3{
+    flex-direction: column-reverse;
+    width: auto;
+}
+.canne{
+    box-shadow: 0px 10px 10px 0px grey;
+    width: 366px;
+    margin-bottom: 25px;
+}
+.filtres{
+    flex-direction: column;
+}
+                /* ASIDE */
+.txt_img{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.img_popu{
+    width: 125px;
+}
+                /* ARTICLE */
+.img_big{
+    width: 365px;
+    height: 130px;
+}
+.img_small{
+    width: 365px;
+    height: 130px;
+}
+                /* FOOTER */
+footer{
+    flex-direction: column;
+    width: auto;
+}
 }
