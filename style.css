@@ -76,7 +76,6 @@ margin-left: 50%;
                     /* NAV */
 .plein
 {
-color: grey;
 font-size: 14px;
 margin-top: -8px;
 color: black;
@@ -94,12 +93,13 @@ background-color: #F2F2F2;
 border-radius: 15px 0px 0px 15px;
 padding: 8px;
 }
-i {
-    color: #0065FC;
-  }
+i 
+{
+color: #0065FC;
+}
 .fa-map-marker-alt
 {
-    color: black;
+color: black;
 }
 .rch
 {
@@ -381,23 +381,28 @@ padding-inline-start: 1px;
 font-size: 15px;
 }
                 /* MEDIA QUERIES TABLETTE*/
-@media screen and (max-width:1000px) {
+@media screen and (max-width:992px) {
     body{
-        width: 700px;
+        width: 768px;
     }
                 /* HEADER */
-    .btn1{
-        margin-left: 335px;
+    .bouton_bleu{
+        margin-left: 255px;
+    }
+    .surlignement_bleu{
+        margin-left: 109px;
     }
     .header{
         margin-left: 427px;
     }
                 /* NAV */
-    .n2{
-        width: 700px;
+    .filtres{
+        padding-bottom: 0px;
+    }
+    .bouton_filtre{
+        margin-top: 10px;
     }
     .filtre_romantique{
-        margin-left: 85px;
         margin-top: 10px;
     }
     .filtre_economique{
@@ -407,53 +412,49 @@ font-size: 15px;
         margin-top: 10px;
     }
                 /* SECTION HEBERGEMENT*/
-    .n3{
-        flex-direction: column;
+    .section_hebergement{
+        flex-direction: column-reverse;
         width: 700px;
     }
-    .nom{
-        margin-left: 5px;
-    }
-    .prix{
-        margin-left: 5px;
+    .hebergements{
+        margin-bottom: 20px;
     }
                 /* ASIDE */
     .img_popu{
         width: 350px;
     }
-    .aside2{
-        margin-top: 20px;
-        width: 665px;
-    }
-    .aside_populaire{
-        margin-top: 20px;
-        margin-left: 0px;
-    }
     .etoile_populaire{
-        margin-left: 10px;
+        margin-top: 70px;
     }
                 /* SECTION ACTIVITES */
-    .n5{
-        width: 700px;;
+    .activites{
+        width: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5px;
+        margin-right: 5px;
     }
-    .img_big{
-        width: 235px;
-        height: 130px;
+    .image{
+        width: 350px;
+        height: 100px;
     }
-    .block1{
-        height: 175px;
-        width: 300px;
+    .shadow{
+        height: 140px;
+        width: 350px;
+        margin-bottom: 25px;
+    }
+    *{
+        outline: dashed red 1px;
     }
                 /* FOOTER */
     footer{
     width: 700px;
     }
-
+}
                 /* MEDIA QUERIES SMARTPHONE*/
-
-    @media (max-width: 695px) {
+    @media (max-width: 768px) {
 body{
-    width: 500px;
+    width: 375px;
 }
                 /* HEADER */
 .header{
