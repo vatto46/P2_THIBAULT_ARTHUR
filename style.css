@@ -77,7 +77,9 @@ margin-left: 50%;
 .plein
 {
 color: grey;
-font-size: 15px;
+font-size: 14px;
+margin-top: -8px;
+color: black;
 }
 .recherche
 {
@@ -91,6 +93,13 @@ margin-right: 680px;
 background-color: #F2F2F2;
 border-radius: 15px 0px 0px 15px;
 padding: 8px;
+}
+i {
+    color: #0065FC;
+  }
+.fa-map-marker-alt
+{
+    color: black;
 }
 .rch
 {
@@ -119,6 +128,8 @@ font-size: 15px;
 {
 font-size: 20px;
 margin-top: 13px;
+color: black;
+font-weight: bold;
 }
 .bouton_filtre
 {
@@ -146,6 +157,8 @@ margin: 0;
 padding-top: 12px;
 position: relative;
 padding-left: 7px;
+color: black;
+font-weight: bolder;
 }
 .logo_rond
 {
@@ -214,16 +227,14 @@ padding-bottom: 10px;
 background-color: white;
 margin-left: 5px;
 margin-right: 5px;
-padding-right: 2px;
-padding-left: 2px;
-padding-top: 2px;
+padding: 4px 4px 0px 4px;
 }
 .border
 {
-border-top-left-radius: 20px 20px;
-border-top-right-radius: 20px 20px;
-border-bottom-left-radius: 20px 20px;
-border-bottom-right-radius: 20px 20px;
+border-top-left-radius: 22px 22px;
+border-top-right-radius: 22px 22px;
+border-bottom-left-radius: 22px 22px;
+border-bottom-right-radius: 22px 22px;
 }
 .img_aside
 {
@@ -237,7 +248,8 @@ margin-top: 5px;
 margin-bottom: 2px;
 margin-right: 5px;
 font-size: 15px;
-font-weight: bold;
+font-weight: bolder;
+color: black;
 }
 .prix
 {
@@ -245,22 +257,22 @@ padding-left: 10px;
 margin-top: 5px;
 font-size: 14px;
 }
-.etoile
-{
-display: flex;
-width: 13px;
-height: 13px;
-margin-left: 1px;
-padding-bottom: 10px;
-}
 .groupe_etoile
 {
 display: flex;
 margin-left: 8px;
+margin-top: -5px;
+margin-bottom: 8px;
+}
+.fa-star
+{
+    font-size: 12px;
 }
 .afficher
 {
 margin-left: 13px;
+font-weight: bold;
+color: black;
 }
                 /* ASIDE */
 
@@ -287,13 +299,17 @@ display: flex;
 margin-left: 10px;
 margin-top: 45px;
 }
+.etoile_grise
+{
+    color: #dddbdb;
+}
 .img_popu
 {
 width: 120px;
 height: 130px;
 border-top-left-radius: 19px 19px;
 border-bottom-left-radius: 19px 19px;
-margin: 2px 0px 2px 2px;
+margin: 4px 0px 4px 4px;
 }
 .logo_populaire
 {
@@ -312,6 +328,7 @@ justify-content: space-between;
 .titre_activites
 {
 margin-left: 5px;
+margin-top: 25px;
 }
 .shadow
 {
@@ -334,6 +351,7 @@ margin-top: 10px;
 padding-left: 5px;
 font-weight: bold;
 font-size: 17px;
+color: black;
 }
 #activite_2, #activite_5
 {
@@ -348,6 +366,10 @@ display: flex;
 justify-content: space-around;
 margin-top: 40px;
 text-align: left;
+}
+.propos 
+{
+    margin-left: -50px;
 }
 li
 {
