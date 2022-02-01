@@ -36,11 +36,13 @@ height: 2px;
 width: 130px;
 background-color: #0065FC;
 margin-left: 105px;
+margin-bottom: 20px;
 }
 .surlignement_gris
 {
 height: 2px;
 width: 130px;
+margin-bottom: 20px;
 }
 a
 {
@@ -59,7 +61,6 @@ margin-left: 532px;
 .bouton
 {
 display: flex;
-margin-top: 20px;
 height: 35px;
 background-color: white;
 border: none;
@@ -284,7 +285,7 @@ margin-left: 10px;
 {
 margin-left: 10px;
 }
-.block_aside2
+.block_aside
 {
 display: flex;
 flex-direction: row;
@@ -380,6 +381,8 @@ ul
 padding-inline-start: 1px;
 font-size: 15px;
 }
+
+
                 /* MEDIA QUERIES TABLETTE*/
 @media screen and (max-width:992px) {
     body{
@@ -443,9 +446,7 @@ font-size: 15px;
         width: 350px;
         margin-bottom: 25px;
     }
-    *{
-        outline: dashed red 1px;
-    }
+
                 /* FOOTER */
     footer{
     width: 700px;
@@ -457,9 +458,6 @@ body{
     width: 375px;
 }
                 /* HEADER */
-.header{
-    display: none;
-}
 header{
     flex-wrap: wrap;
 }
@@ -467,39 +465,32 @@ header{
     margin-left: 10px;
 }
 .logo{
-    width: 70%;
-    height: 70%;
+
     margin: auto;
-}
-a{
-    margin-left: 50px;
+    text-align: center;
 }
                 /* NAV */
-.n2{
-    flex-direction: column;
-    width: auto;
-}
 .afficher{
     margin-left: 4px;
     font-size: 17px;
 }
-                /* SECTION */
-.n4{
-    margin-top: 20px;
+.surlignement_bleu{
+    margin-left: 0px;
 }
-.n3{
-    flex-direction: column-reverse;
+                /* SECTION HEBERGEMENT*/
+.section_hebergement{
     width: auto;
 }
-.canne{
-    box-shadow: 0px 10px 10px 0px grey;
-    width: 366px;
-    margin-bottom: 25px;
-}
-.filtres{
+.block_hebergement{
     flex-direction: column;
 }
-                /* ASIDE */
+img{
+    width: 337px;
+}
+.canne{
+    margin-bottom: 10px;
+}
+/* ASIDE */
 .txt_img{
     padding-left: 10px;
     padding-top: 5px;
@@ -508,12 +499,8 @@ a{
 .img_popu{
     width: 125px;
 }
-                /* ARTICLE */
+                /* SECTION ACTIVITES */
 .img_big{
-    width: 365px;
-    height: 130px;
-}
-.img_small{
     width: 365px;
     height: 130px;
 }
@@ -521,5 +508,8 @@ a{
 footer{
     flex-direction: column;
     width: auto;
+}
+.propos{
+    margin: 0px;
 }
 }
