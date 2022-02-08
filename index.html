@@ -8,20 +8,16 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <script src="https://kit.fontawesome.com/79ef9fc21d.js" crossorigin="anonymous"></script>
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" 
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 <body>
                         <!-- HEADER (CSS:ligne 33 à 76) -->
 <header>
   <img class="logo" src="images/logo/Booki.png">
-  <div class="bouton">
-    <div class="bouton_bleu">
-      <div class="surlignement_bleu"></div>
-        <button class="btn1 bouton"><a href="#hebergement">Hébergements</a></button></div>
-    <div class="bouton_gris">
-      <div class="surlignement_gris"></div>
-        <button class="btn2 bouton"><a href="#Activités">Activités</a></button></div></div>
+    <button class="btn1 bouton"><a href="#hebergement">Hébergements</a></button>
+    <button class="btn2 bouton"><a href="#Activités">Activités</a></button>
 </header>
                         <!-- NAV (CSS: ligne 77 à 185) -->
 <nav class="nav">
@@ -62,7 +58,7 @@
   <div class="hebergements">
     <h1><div id="hebergement">Hébergements à Marseille</div></h1>
     <article class="block_hebergement">
-      <div class="canne border">
+      <div class="canne border shadow_smartphone">
         <a href="#">
           <img class="img_aside" src="images/hebergements/4_small/cannebiere.jpg">
             <p class="nom"> Auberge La Cannebière</p>
@@ -74,7 +70,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star etoile_grise"></i>
               </div></a></div>
-      <div class="canne border">
+      <div class="canne border shadow_smartphone">
         <a href="#">
           <img class="img_aside" src="images/hebergements/4_small/port.jpg">
             <p class="nom"> Hôtel du port</p> 
@@ -86,7 +82,7 @@
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div></a></div>
-      <div class="canne border">
+      <div class="canne border shadow_smartphone">
         <a href="#">
           <img class="img_aside" src="images/hebergements/4_small/mouette.jpg">
             <p class="nom"> Hôtel Les mouettes</p>  
@@ -99,7 +95,7 @@
                 <i class="fas fa-star etoile_grise"></i>
               </div></a></div></article>
     <article class="block_hebergement">
-      <div class="canne border">
+      <div class="canne border shadow_smartphone">
         <a href="#">
           <img class="img_aside" src="images/hebergements/4_small/mer.jpg">
             <p class="nom">Hôtel de la mer</p>
@@ -111,7 +107,7 @@
                 <i class="fas fa-star etoile_grise"></i>
                 <i class="fas fa-star etoile_grise"></i>
               </div></a></div>
-      <div class="canne border">
+      <div class="canne border shadow_smartphone">
         <a href="#">
           <img class="img_aside" src="images/hebergements/4_small/panier.jpg">
             <p class="nom">Auberge Le Panier</p>
@@ -123,7 +119,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star etoile_grise"></i>
               </div></a></div>
-      <div class="canne border">
+      <div class="canne border shadow_smartphone">
         <a href="#">
           <img class="img_aside" src="images/hebergements/4_small/amina.jpg">
             <p class="nom">Hôtel chez Amina</p>
@@ -140,11 +136,12 @@
                                 <!-- ASIDE (CSS: ligne 266 à 305)-->
   <aside class="hebergements plus_populaires">
     <h1 class="popu">Les plus populaires <img  class="logo_populaire" src="images/logo/tendance.png"> </h1>
+    <div class="hotel_populaires">
     <div class="block_aside border"><a href="#">
       <img class="img_popu" src="images/hebergements/4_small/matin.jpg">
         <div class="texte"><p class="nom">Hôtel Le soleil du matin </p>
           <p class="prix">Nuit à parir de 128€</p>
-            <div class="etoile_populaire">
+            <div class="etoile_populaire etoile2">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -170,7 +167,7 @@
       <img class="img_popu" src="images/hebergements/4_small/blanc.jpg">
         <div class="texte"><p class="nom">Hôtel Tout bleu et Blanc </p>
           <p class="prix">Nuit à partir de 68€</p>
-            <div class="etoile_populaire">
+            <div class="etoile_populaire etoile2">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -179,10 +176,10 @@
             </div></a>
         </div>
     </div>
+  </div>
   </aside>
 </section>
                               <!-- SECTION ACTIVITES (CSS: ligne 306 à 342) -->
-
   <h1 class="titre_activites"><div id="Activités"></div>Activités à Marseille</h1>
   <section class="activites">
     <div class="shadow border"> <a href="#">
@@ -216,7 +213,6 @@
           <p class="txt_img">Parc Longchamp</p></a>
       </div>
    </div>
-
   </section>
                               <!-- FOOTER (CSS: ligne 343 à 361)-->
     <footer class="footer">
