@@ -13,7 +13,7 @@ font-family: "Raleway", sans-serif;
 img
 {
 width: 220px;
-height: 110px;
+height: 135px;
 object-fit: cover; 
 }
 header
@@ -50,7 +50,7 @@ border: none;
 display: inline-block;
 margin: 0 0% 0 70%;
 padding: 50px 0 0 0;
-border-top: 2px solid blue;
+border-top: 2px solid #0065FC;
 }
 .btn2
 {
@@ -280,7 +280,7 @@ background-color: white;
 {
 display: flex;
 margin-left: 10px;
-margin-top: 45px;
+margin-top: 72px;
 }
 .etoile_grise
 {
@@ -293,8 +293,8 @@ flex-direction: column;
 }
 .img_popu
 {
-width: 120px;
-height: 130px;
+width: 140px;
+height: 150px;
 border-top-left-radius: 19px 19px;
 border-bottom-left-radius: 19px 19px;
 margin: 4px 0px 0px 4px;
@@ -331,7 +331,7 @@ border-top-right-radius: 19px 19px;
 }
 .image_grande
 {
-height: 302px;
+height: 353px;
 }
 .txt_img
 {
@@ -399,28 +399,47 @@ flex-direction: column;
 {
 padding: 0px;
 }
+.etoile_populaire
+{
+margin-top: 20px;
+padding-bottom: 10px;
+}
 .plus_populaires
 {
 margin: 10px 0px 10px 0px;
 }
 .block_aside
 {
-width: 268px;
+flex-direction: column;
+width: 222px;
 margin-right: 7px;
 }
 .hotel_populaires
 {
 display: flex;
 flex-direction: row;
+justify-content: space-around;
+}
+.margin-etoile
+{
+margin-top: 38px;
 }
 .popu
 {
 font-size: 26px;
 }
+.texte_filtre
+{
+margin-right: 0px;
+padding-right: 0px;
+}
 .img_popu
 {
-height: 116px;
-width: 84px;
+height: 135px;
+width: 220px;
+border-top-left-radius: 20px 20px;
+border-top-right-radius: 20px 20px;
+border-bottom-left-radius: 0px 0px;
 }
 .titre_activites
 {
@@ -466,7 +485,7 @@ font-size: 17px;
 }
 nav
 {
-margin-top: 100px;
+margin-top: 77px;
 }
 .bouton
 {
@@ -474,9 +493,25 @@ justify-content:space-evenly ;
 }
 .btn1
 {
+padding-left: 40px;
+padding-right: 40px;
+margin-left: 0px;
 padding-top: 0;
 border-top: 0;
 border-bottom: #0065FC 2px solid;
+}
+.btn2
+{
+padding-left: 70px;
+padding-right: 80px;
+margin-left: -4px;
+padding-top: 0;
+border-top: 0;
+border-bottom: #F2F2F2 2px solid;
+}
+.information
+{
+margin-top: 10px;
 }
 .section_hebergement
 {
@@ -496,6 +531,10 @@ width: 337px;
 background-color: white;
 border-radius: 0;
 }
+.etoile_populaire
+{
+margin-top: 48px;
+}
 .canne
 {
 margin-bottom: 10px;
@@ -514,6 +553,7 @@ padding-bottom: 5px;
 }
 .block_aside
 {
+flex-direction: row;
 width: 356px;
 }
 .plus_populaires
@@ -537,6 +577,9 @@ width: 365px;
 {
 width: 150px;
 height: 130px;
+border-top-left-radius: 20px 20px;
+border-bottom-left-radius: 20px 20px;
+border-top-right-radius: 0px 0px;
 }
 .img_big
 {
