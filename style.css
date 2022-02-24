@@ -23,7 +23,6 @@ position: relative;
 height: 79px;
 width: 100%;
 }
-                /* HEADER */
 a
 {
 text-decoration: none;
@@ -55,8 +54,8 @@ border-top: 2px solid #0065FC;
 .btn2
 {
 margin-left: 70px;
+color: black;
 }
-                    /* NAV */
 .plein
 {
 font-size: 15px;
@@ -193,15 +192,16 @@ border-radius: 50px;
 {
 margin-left: 10px;
 margin-bottom: 35px;
-}
-                    /* SECTION HEBERGEMENT*/                    
+}          
 .section_hebergement
 {
 display: flex;
 width: auto;
 }
-h2
+.titre
 {
+margin-left: 20px;
+font-weight: 600;
 font-size: x-large;
 }
 .hebergements
@@ -243,7 +243,7 @@ border-top-right-radius: 20px 20px;
 padding-left: 10px;
 margin-top: 5px;
 margin-bottom: 2px;
-margin-right: 5px;
+margin-right: 9px;
 font-size: 15px;
 font-weight: bolder;
 color: black;
@@ -273,7 +273,6 @@ font-weight: bold;
 color: black;
 font-size: medium;
 }
-                /* ASIDE */
 .plus_populaires
 {
 margin-left: 35px;  
@@ -291,8 +290,7 @@ margin: 15px;
 {
 display: flex;
 flex-direction: row;
-margin: 15px;
-padding-right: 6px;
+margin: 15px 1px 10px 0px;
 background-color: white;
 }
 .etoile_populaire
@@ -301,6 +299,10 @@ display: flex;
 margin-left: 10px;
 margin-top: 60px;
 padding-bottom: 12px;
+}
+.etoile2
+{
+margin-top: 60px;
 }
 .etoile_grise
 {
@@ -326,7 +328,6 @@ margin-right: 10px;
 width: 20px;
 height: 20px;
 }
-                /* SECTION ACTIVITES */
 .activites
 {
 display: flex;
@@ -366,7 +367,6 @@ color: black;
 {
 margin-bottom: 30px;
 }
-                /* FOOTER */
 footer
 {
 background-color: #F2F2F2;
@@ -378,15 +378,15 @@ margin-top: 60px;
 {
 display: flex;
 flex-direction: column;
+margin-left: -150px;
+}
+h3.titre
+{
+margin-left: 0px;
 }
 .lien
 {
 margin: 3px;
-}
-h4
-{
-font-size: medium;
-font-weight: 500;
 }
                 /* MEDIA QUERIES TABLETTE*/
 @media screen and (max-width:1200px) {
@@ -418,7 +418,7 @@ margin-left: 427px;
 {
 flex-direction: column;
 }
-h2
+.titre
 {
 margin-left: 15px;
 }
@@ -482,8 +482,6 @@ margin: 25px 0px 15px 15px;
 {
 display: flex;
 flex-direction: column;
-flex-wrap: wrap;
-justify-content: space-evenly;
 }
 .txt_img
 {
@@ -500,6 +498,10 @@ margin-bottom: 30px;
 .image_grande
 {
 height: 135px;
+}
+.propos
+{
+margin-left: 0px;
 }
 }
                 /* MEDIA QUERIES SMARTPHONE*/
@@ -620,6 +622,7 @@ background-color: #F2F2F2;;
 .hotel_populaires
 {
 flex-direction: column;
+padding: 22px;
 }
 .shadow_smartphone
 {
