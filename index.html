@@ -6,8 +6,9 @@
       <title>Booki</title>
       <script src="https://kit.fontawesome.com/79ef9fc21d.js" crossorigin="anonymous"></script>
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/tablette.css">
+      <link rel="stylesheet" type="text/css" href="css/mobile.css">
     </head>
   <body>
     <header>
@@ -16,7 +17,7 @@
         <a class="btn2 bouton" href="#Activités">Activités</a>
     </header>
     <nav class="nav">
-      <h1 class="trouvez">Trouvez votre hébergement pour des vacances de rêve</h1>
+      <p class="trouvez">Trouvez votre hébergement pour des vacances de rêve</p>
       <p class="plein">En plein centre ville ou en pleine nature</p>
     <div class="recherche">
       <div class="logo_loc">
@@ -30,25 +31,25 @@
     </div> 
     <div class="filtres">
       <div class="flt">Filtres</div>
-        <div class="bouton_filtre">
+        <div class="bouton_filtre bouton1">
           <div class="logo_rond">
             <i class="fas fa-money-bill-wave"></i>
           </div>
           <p class="texte_filtre">Economique</p>
         </div>
-        <div class="bouton_filtre">
+        <div class="bouton_filtre bouton2">
           <div class="logo_rond">
             <i class="fas fa-child"></i>
           </div>
           <p class="texte_filtre">Familial</p>
         </div>
-        <div class="bouton_filtre">
+        <div class="bouton_filtre bouton3">
           <div class="logo_rond">
             <i class="fas fa-heart"></i>
           </div>
           <p class="texte_filtre">Romantique</p>
         </div>
-        <div class="bouton_filtre">
+        <div class="bouton_filtre bouton4">
           <div class="logo_rond">
             <i class="fas fa-dog"></i>
           </div>
@@ -200,66 +201,70 @@
       </div>
       </aside>
     </section>
-    <p class="titre titre_activites" id="Activités">Activités à Marseille</p>
-      <section class="activites">
-        <a href="#">
-          <div class="shadow border">
-            <img class="image image_grande" src="images/activites/4_small/vieux.jpg" alt="Vieux Port">
-            <p class="txt_img">Vieux Port</p>
-          </div>
-        </a>
-        <div>
-          <div class="shadow border" id="activite_2">
-            <a href="#">
-              <img class="image" src="images/activites/4_small/fort.jpg" alt="Fort de Pomègues">
-              <p class="txt_img">Fort de Pomègues</p>
-            </a>
-          </div>
-          <div class="shadow border" id="activite_3">
-            <a href="#">
-              <img class="image" src="images/activites/4_small/frioul.jpg" alt="Îles du Frioul">
-              <p class="txt_img">Îles du Frioul</p>
-            </a>
-          </div>
+<section class="section_activites">
+  <p class="titre titre_activites" id="Activités">Activités à Marseille</p>
+    <div class="activites">
+      <a href="#">
+        <div class="shadow border">
+          <img class="image image_grande" src="images/activites/4_small/vieux.jpg" alt="Vieux Port">
+          <p class="txt_img">Vieux Port</p>
         </div>
+      </a>
+      <div>
+        <div class="shadow border" id="activite_2">
+          <a href="#">
+            <img class="image" src="images/activites/4_small/fort.jpg" alt="Fort de Pomègues">
+            <p class="txt_img">Fort de Pomègues</p>
+          </a>
+        </div>
+        <div class="shadow border" id="activite_3">
+          <a href="#">
+            <img class="image" src="images/activites/4_small/frioul.jpg" alt="Îles du Frioul">
+            <p class="txt_img">Îles du Frioul</p>
+          </a>
+        </div>
+      </div>
         <div class="shadow border">
           <a href="#">
             <img class="image image_grande" src="images/activites/4_small/calanques.jpg" alt="Parc National des Calanques">
             <p class="txt_img">Parc National des Calanques</p>
           </a>
         </div>
-        <div>
-          <div class="shadow border" id="activite_5">
-            <a href="#">
-              <img class="image" src="images/activites/4_small/dame.jpg" alt="Notre-Dame-de-la-Garde">
-              <p class="txt_img">Notre-Dame-de-la-Garde</p>
-            </a>
-          </div>
+      <div>
+        <div class="shadow border" id="activite_5">
+          <a href="#">
+            <img class="image" src="images/activites/4_small/dame.jpg" alt="Notre-Dame-de-la-Garde">
+            <p class="txt_img">Notre-Dame-de-la-Garde</p>
+          </a>
+        </div>
         <div class="shadow border" id="activite_6">
           <a href="#">
             <img class="image" src="images/activites/4_small/parc.jpg" alt="Parc Longchamp">
             <p class="txt_img">Parc Longchamp</p>
           </a>
         </div>
-        </div>
-      </section>
+      </div>
+    </div>
+</section>
       <footer>
-        <div class="propos">
-          <h3 class="titre">A propos</h3>
-          <a class="lien">Fonctionnement du site</a>
-          <a class="lien">Conditions générales de vente</a>
-          <a class="lien">Données et confidentialité</a>
-        </div>
-        <div class="propos">
-          <h3 class="titre">Nos Hébergements</h3>
-          <a class="lien">Charte qualité</a>
-          <a class="lien"> Soumettre votre hôtel</a>
-        </div>
-        <div class="propos">
-          <h3 class="titre">Assistance</h3>
-          <a class="lien">Centre d'aide</a>
-          <a class="lien">Nous contacter</a>
-        </div>
+        <div class="footer">
+          <div class="propos">
+            <h3 class="titre">A propos</h3>
+            <a class="lien">Fonctionnement du site</a>
+            <a class="lien">Conditions générales de vente</a>
+            <a class="lien">Données et confidentialité</a>
+          </div>
+          <div class="propos">
+            <h3 class="titre">Nos Hébergements</h3>
+            <a class="lien">Charte qualité</a>
+            <a class="lien"> Soumettre votre hôtel</a>
+          </div>
+          <div class="propos">
+            <h3 class="titre">Assistance</h3>
+            <a class="lien">Centre d'aide</a>
+            <a class="lien">Nous contacter</a>
+          </div>
+      </div>
       </footer>
   </body>
 </html>

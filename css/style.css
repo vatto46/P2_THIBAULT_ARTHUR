@@ -1,0 +1,349 @@
+html{
+    margin: auto;
+    padding: 0;
+}
+body{
+    margin: 0;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+}
+img{
+    width: 220px;
+    height: 135px;
+    object-fit: cover; 
+}
+header{
+    display: block;
+    position: relative;
+    height: 79px;
+    width: 1200px;
+    margin: auto;
+}
+nav{
+    width: 1200px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    font-family: "Raleway";
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.bouton_bleu{
+    margin-left: 532px;
+}
+.bouton{
+    background-color: white;
+    border: none;
+    color: black;
+}
+.btn1{
+    display: inline-block;
+    margin: 0 0% 0 65%;
+    padding: 50px 0 0 0;
+
+}
+.btn1:hover{
+    border-top: 2px solid #0065FC;
+    color: #0065fc;
+}
+.btn2{
+    margin-left: 70px;
+    padding: 48px 0 0 0;
+}
+.btn2:hover{
+    border-top: 2px solid #0065FC;
+    color: #0065fc;
+}
+.plein{
+    font-size: 15px;
+    margin-top: -8px;
+    color: black;
+}
+.trouvez{
+    font-size: large;
+    font-weight: bold;
+}
+.recherche{
+    display: flex;
+    border: solid 1px #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
+    margin-right: 898px;
+}
+.logo_loc{
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    padding: 14px;
+}
+.loupe{
+    display: none;
+    color: white;
+}
+.fa-magnifying-glass{
+    color: white;
+}
+i {
+    color: #0065FC;
+}
+.fa-map-marker-alt{
+    color: black;
+}
+.rch{
+    background-color: #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+input[type="search"]{
+    width: 200px;
+    font-size: 18px;
+    font-family: "Raleway";
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding-left: 5px;
+    border: none;
+}
+.filtres{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.flt{
+    font-size: 20px;
+    margin-top: 13px;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.bouton_filtre{
+    display: flex;
+    border: solid 2px #F2F2F2;
+    margin-right: 20px;
+    padding-right: 15px;
+    height: auto;
+    border-radius: 100px;
+    margin-top: 4px;
+}
+.bouton_filtre:hover{
+    background-color: #F2F2F2;
+    transition-property: all;
+    transition-duration:0.5s;
+    transition-timing-function:ease-in;
+}
+.texte_filtre{
+    margin-left: 5px;
+    margin-top: 8px;
+    display: inline-block;
+    margin: 0;
+    padding-top: 12px;
+    position: relative;
+    padding-left: 7px;
+    color: black;
+    font-weight: bolder;
+}
+.logo_rond{
+    width: 20px;
+    height: 20px;
+    background-color: #DEEBFF;
+    border-radius: 70% 70% 70% 70%;
+    padding: 10px;
+    display: inline-block;
+}
+.logo_rond>img{
+    max-height: 20px;
+    max-width: 20px;
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+.logo_i{
+    width: 15px;
+    height: 15px;
+    margin-top: 11px;
+    border: solid 1px grey;
+    border-radius: 50px;
+}
+.plus{
+    margin-left: 10px;
+    margin-bottom: 35px;
+}          
+.section_hebergement{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
+.titre{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: x-large;
+}
+.hebergements{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding: 15px;
+    font-size: x-large;
+    border-radius: 20px 20px 20px 20px;
+}
+.block_hebergement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.canne{
+    background-color: white;
+    margin: 15px;
+    padding: 4px 4px 0px 4px;
+}
+.border{
+    border-top-left-radius: 22px 22px;
+    border-top-right-radius: 22px 22px;
+    border-bottom-left-radius: 22px 22px;
+    border-bottom-right-radius: 22px 22px;
+}
+.img_aside{
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+}
+.nom{
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-right: 9px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+}
+.prix{
+    padding-left: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: black;
+}
+.groupe_etoile{
+    display: flex;
+    margin-left: 8px;
+    margin-top: -5px;
+    margin-bottom: 8px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.afficher{
+    margin: 15px;
+    font-weight: bold;
+    color: black;
+    font-size: medium;
+}
+.plus_populaires{
+    margin-left: 35px;  
+}
+.fa-chart-line{
+    color: black;
+    margin-left: 49px;
+}
+.popu{
+    margin: 15px;
+}
+.block_aside{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 1px 10px 0px;
+    background-color: white;
+}
+.etoile_populaire{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 60px;
+    padding-bottom: 12px;
+}
+.etoile2{
+    margin-top: 60px;
+}
+.etoile_grise{
+    color: #dddbdb;
+}
+.hotel_populaires{
+    display: flex;
+    flex-direction: column;
+}
+.img_popu{
+    width: 140px;
+    height: 138px;
+    border-top-left-radius: 19px 19px;
+    border-bottom-left-radius: 19px 19px;
+    margin: 4px 0px 0px 4px;
+}
+.logo_populaire{
+    float: right;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.activites{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+}
+.titre_activites{
+    font-size: x-large;
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 55px;
+}
+.shadow{
+    box-shadow: 0px 10px 10px 0px grey;
+    padding-bottom: 1px;
+}
+.image{
+    width: 285px;
+    border-top-left-radius: 19px 19px;
+    border-top-right-radius: 19px 19px;
+}
+.image_grande{
+    height: 353px;
+}
+.txt_img{
+    margin-top: 10px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+}
+#activite_2, #activite_5{
+    margin-bottom: 30px;
+}
+footer{
+    background-color: #F2F2F2;
+    margin-top: 60px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.propos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+h3.titre{
+    margin-left: 0px;
+}
+.lien{
+    margin: 3px;
+}
