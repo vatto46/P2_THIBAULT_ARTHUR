@@ -44,8 +44,7 @@ a{
 .btn1{
     display: inline-block;
     margin: 0 0% 0 65%;
-    padding: 50px 0 0 0;
-
+    padding: 48px 0 0 0;
 }
 .btn1:hover{
     border-top: 2px solid #0065FC;
@@ -320,7 +319,7 @@ input[type="search"]{
 }
 .txt_img{
     margin-top: 10px;
-    padding-left: 5px;
+    padding-left: 15px;
     font-weight: bold;
     font-size: 17px;
     color: black;
@@ -343,6 +342,10 @@ footer{
 }
 h3.titre{
     margin-left: 0px;
+}
+footer .lien
+{
+    color: black;
 }
 .lien{
     margin: 3px;
